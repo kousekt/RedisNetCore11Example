@@ -5,7 +5,7 @@ A .net core 1.1 example of a Redis client.
 
 This project was thrown together very quick as a spike to create a Redis client in .NET Core 1.1. Ultimately, this was to explore aws ElasticCache using the Redis engine.
 
-Please forgive me as I was in a hurry to get a demo up and running. Very little comments. The program will compile and run. See the HomeController and WidgetController and import the redisdemopostman.json as it calls methods in both of those controllers to perform crud operations in the Redis cache.
+Please forgive me as I was in a hurry to get a demo up and running. Very little comments. The program will compile and run. See the HomeController and import the redisdemopostman.json as it calls methods in both of those controllers to perform crud operations in the Redis cache.  The .NET 2.0 implementation has a Widget controller.  I did not have time to create a Widget controller for this but it would be easy enough to do.  So don't run the postman requests where you see api/Widget for this  :-)
 
 You will also need to go to https://redis.io/download and download / startup the redis cache. I just installed the zip and started up redis-server.
 
